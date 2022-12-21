@@ -1,4 +1,27 @@
-h1, h2,h3,h4
-{
-    color: blue;
+body{
+    background-color:lightblue;
+    width: 500px;
+    height: 300px;
+    font-size:12px;
+    border: 1px solid black;
+    margin: 10px;
+    padding : 10px;
+    font-family: Arial;
+     
 }
+
+#element1 {
+    border: 1px solid black;
+    width : 400px;
+    margin: 10px;
+    padding : 10px;
+    text-align: justify;
+
+}
+div {
+    text-align: justify;
+    margin: 10px;
+}
+
+
+

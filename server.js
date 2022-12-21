@@ -11,6 +11,7 @@ app.use(maSession({
 );
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/views'));
 app.use(express.urlencoded({extended: true}));
 
 let router = require ('./routes');
