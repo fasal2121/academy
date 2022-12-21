@@ -1,14 +1,7 @@
 let express = require('express');
 
 let app = express();
-let maSession = require('express-session');
 
-app.use(maSession({
-    secret:'my secret',
-    resave:false,
-    saveUninitialized: true,
-})
-);
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
